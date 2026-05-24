@@ -1,0 +1,14 @@
+.flex{
+    display: flex;
+}
+.alinhar{
+    justify-content: space-between;
+    align-items: center;
+}
+.limite{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.gap20{
+ gap: 20px;
+}
