@@ -1,0 +1,28 @@
+.grid{
+    display: grid;
+}
+.grid-auto-flow{
+    grid-auto-flow: column;
+    div:nth-child(2){
+        margin: 0 auto;
+
+    }
+    div:nth-child(3){
+        justify-self: end;
+    }
+    .flex{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+}
+
+#segundary {
+    justify-content: space-between;
+    border-block: 1px solid var(--stroke-color);
+    padding-block:10px
+}
+.maximo{
+    margin: 0 auto;
+    max-width: 1200px;
+}
